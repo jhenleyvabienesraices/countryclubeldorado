@@ -1,0 +1,246 @@
+/* Tipografía base */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fdfdfd;
+  }
+  
+  /* HERO */
+  .hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }  
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+   
+  .habilitacion-urbana {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .habilitacion-urbana h2 {
+    font-size: 3rem;
+    color: #4ab938; 
+    margin-bottom: none;
+    font-weight: 700;
+  }
+  
+  .habilitacion {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+  }  
+  .habilitacion video {
+    width: 40rem; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px; 
+    margin-top: 3rem;
+  }
+  /* BENEFICIOS */
+  .beneficios {
+    padding: 60px 20px;
+    color: #ffffff;
+    background: #fff url('textura.jpg') repeat;
+    text-align: center;
+  }
+  
+  .beneficios h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .beneficio {
+    margin-bottom: 30px;
+  }
+  
+  .beneficio img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  .beneficio {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .beneficio video {
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px; 
+  }
+  
+  .beneficio p {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .beneficio {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .beneficio video {
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px; 
+  }
+  /* TÍTULOS DE PROPIEDAD */
+  .titulos {
+    background-color: #ffffff00;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .titulos h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #ffffff;
+    border-radius: 2rem;
+    border-color: #4f0b72;
+    text-align: center;
+  }
+  
+  .titulos p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .titulos video {
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px; 
+  }
+  .whatsapp-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .btn-whatsapp {
+    background-color: #4ab938; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+  }  
+  .btn-whatsapp:hover {
+    transform: scale(1.05); 
+  }
+  .clientes {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .clientes h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #4ab938;
+  }
+  .clientes h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #130101;
+  }
+  .clientes-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+  }
+  
+  /* FOOTER */
+  footer {
+    color: #ffffff;
+    background-color: #4ab938;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    margin-bottom: none;
+  }
+  
+  .btn-whatsapp {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .btn-whatsapp {
+    text-align: center;
+    margin: 40px auto;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+  }
+  
+  .whatsapp-button {
+    background-color: #4ab938; 
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); 
+  }  
+  .btn-whatsapp:hover {
+    transform: scale(1.05); 
+  }
+  .clientes .titulo-clientes {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .img-clientes {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }  
