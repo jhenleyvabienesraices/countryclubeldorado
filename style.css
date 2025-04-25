@@ -1,0 +1,219 @@
+/* Tipografía base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+/* HERO */
+.hero {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.habilitacion-urbana {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.habilitacion-urbana h2 {
+  font-size: 2.3rem;
+  color: #4ab938;
+  margin-bottom: none;
+  font-weight: 700;
+}
+
+.habilitacion {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.habilitacion video {
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+/* BENEFICIOS */
+.beneficios {
+  padding: 60px 20px;
+  color: #ffffff;
+  background: #fff url('textura.jpg') repeat;
+  text-align: center;
+}
+
+.beneficios h2 {
+  font-size: 2.3rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.beneficio {
+  margin-bottom: 30px;
+}
+
+.beneficio img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.beneficio video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.beneficio p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* TÍTULOS DE PROPIEDAD */
+.titulos {
+  background: none; 
+  font-size: 2rem;
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff url('textura.jpg') repeat; /
+}
+
+.titulos .titulos-texto {
+  background: none; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulos h2,
+.titulos p {
+  color: #ffffff; 
+}
+
+
+.titulos video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Botón de WhatsApp */
+/* Botón WhatsApp */
+.whatsapp-button {
+  background-color: #4ab938; 
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); 
+  margin-top: 30px; /* Para agregar espacio en la parte superior */
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover */
+.whatsapp-button:hover {
+  background-color: #45a029; /* Un verde más oscuro cuando se pasa el mouse */
+  transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Hacer que el botón sea más pequeño en dispositivos móviles */
+@media (max-width: 768px) {
+  .whatsapp-button {
+      font-size: 20px; /* Reducir tamaño de fuente */
+      padding: 15px 30px; /* Reducir el padding */
+      width: 100%; /* Asegura que el botón ocupe todo el ancho del contenedor */
+  }
+}
+
+/* CLIENTES */
+.clientes {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.clientes h2 {
+  font-size: 2.5rem;
+  color: #4ab938;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.clientes img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #4ab938;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  font-size: 1.6rem;
+}
+
+/* Diseño responsivo para móvil */
+@media (max-width: 768px) {
+  .beneficio img,
+  .beneficio video {
+      width: 100%;
+      max-width: none;
+  }
+
+  .titulos h2 {
+      font-size: 2.5rem;
+  }
+
+  .btn-whatsapp {
+      padding: 10px 20px;
+      font-size: 1.6rem;
+  }
+
+  .clientes h2 {
+      font-size: 3rem;
+  }
+
+  .clientes h3 {
+      font-size: 2.2rem;
+  }
+
+  .clientes img {
+      max-width: 90%;
+  }
+}
+
