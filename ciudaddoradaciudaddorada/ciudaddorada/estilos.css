@@ -1,0 +1,248 @@
+/* Tipografía base */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fdfdfd;
+  }
+  
+  /* HERO */
+  .hero {
+    position: relative;
+    height: 100 vh;
+    background: url('header.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100 %;
+    height: 94 %;
+    background-color: rgba (128, 0, 128, 0.5); /* Morado con opacidad */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20 px;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200 px;
+    width: 100 %;
+    padding: 0 20 px;
+    gap: 40 px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    text-align: left;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5 rem;
+    font-weight: 700;
+    margin-bottom: 60 px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150 px;
+    max-width: 100 %;
+    margin-left: 205 px;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    width: 500 px;
+    max-width: 300 %;
+    background-color: #ffffff00;
+    border-radius: 10 px;
+    box-shadow: 0 4 px 10 px rgba (0,0,0,0.3);
+  }  
+  .habilitacion-urbana {
+    background-color: #ffffff;
+    padding: 40 px 20 px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .habilitacion-urbana h2 {
+    font-size: 50 px;
+    color: #4f0b72; 
+    margin-bottom: 35 px;
+    font-weight: 700;
+  }
+  
+  .habilitacion {
+    width: 100 %;
+    max-width: 1200 px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10 px;
+  }  
+  /* BENEFICIOS */
+  .beneficios {
+    padding: 60 px 20 px;
+    color: #ffffff;
+    background: #fff url('textura.jpg') repeat;
+    text-align: center;
+  }
+  
+  .beneficios h2 {
+    font-size: 4 rem;
+    margin-bottom: 40 px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .beneficio {
+    margin-bottom: 30 px;
+  }
+  
+  .beneficio img {
+    width: 100 %;
+    max-width: 400 px;
+    height: auto;
+    border-radius: 10 px;
+    box-shadow: 0 4 px 10 px rgba (255, 255, 255, 0.1);
+  }
+  
+  .beneficio p {
+    margin-top: 10 px;
+    font-weight: 700;
+    font-size: 2 rem;
+  }
+  
+  /* TÍTULOS DE PROPIEDAD */
+  .titulos {
+    background-color: #ffffff00;
+    padding: 60 px 20 px;
+    text-align: center;
+  }
+  
+  .titulos h2 {
+    font-size: 4 rem;
+    font-weight: 800;
+    margin-bottom: 50 px;
+    color: #ffffff;
+    border-radius: 2 rem;
+    border-color: #4f0b72;
+  }
+  
+  .titulos p {
+    font-size: 2 rem;
+    font-weight: 600;
+    margin-bottom: 10 px;
+  }
+ 
+  .whatsapp-container {
+    text-align: center;
+    padding: 40 px 20 px;
+  }
+
+  .btn-whatsapp {
+    background-color: #00bb19; 
+    color: white;
+    padding: 15 px 30 px;
+    font-size: 2 rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8 px;
+    box-shadow: 5 px 10 px 10 px rgb (0, 0, 0);
+    transition: background-color 0.3 s ease;
+  }  
+  .btn-whatsapp:hover {
+    transform: scale (1.05); 
+  }
+  .clientes {
+    padding: 60 px 20 px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .clientes h2 {
+    font-size: 3 rem;
+    font-weight: 700;
+    margin-bottom: 30 px;
+    color: #4f0b72;
+  }
+  .clientes h3 {
+    font-size: 3 rem;
+    font-weight: 700;
+    margin-bottom: 30 px;
+    color: #130101;
+  }
+  .clientes-img {
+    width: 100 %;
+    max-width: 600 px;
+    border-radius: 15 px;
+    box-shadow: 0 4 px 10 px rgb (255, 255, 255);
+  }
+  
+  /* FOOTER */
+  footer {
+    color: #ffffff;
+    background-color: #4f0b72;
+    text-align: center;
+    padding: 10 px;
+    font-weight: 400;
+    margin-bottom: none;
+  }
+  
+  .btn-whatsapp {
+    text-align: center;
+    margin: 30 px 0;
+  }
+  
+  .btn-whatsapp {
+    text-align: center;
+    margin: 40 px auto;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+  }
+  
+  .whatsapp-button {
+    background-color: #00bb19; 
+    color: white;
+    padding: 20 px 40 px;
+    border-radius: 10 px;
+    font-size: 24 px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5 px 10 px 10 px rgba (0, 0, 0, 0.2); 
+  }  
+  .btn-whatsapp:hover {
+    transform: scale (1.05); 
+  }
+  .clientes .titulo-clientes {
+    font-size: 2 em;
+    text-align: center;
+    margin-top: 50 px;
+  }
+  
+  .img-clientes {
+    width: 100 %;
+    max-width: 100 %;
+    height: auto;
+    display: block;
+    margin: 20 px auto;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }  
