@@ -1,0 +1,5 @@
+{
+  "java.project.referencedLibraries": [
+    "libs/facebook-java-business-sdk-22.0.2.jar"
+  ]
+}
